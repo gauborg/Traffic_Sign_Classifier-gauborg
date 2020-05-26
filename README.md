@@ -181,10 +181,15 @@ I faced issues with some speed limit sign images when I ran my tests on them and
 
 ![image](./markdown_images/new_images.jpg)
 
-
 ### Performance on New Images
 
 **The submission documents the performance of the model when tested on the captured images. The performance on the new images is compared to the accuracy results of the test set.**
 
 I ran my performance test on 6 images and below are the results.
+
+![testimage01](./markdown_images/testimage01.jpg) | ![testimage02](./markdown_images/testimage02.jpg) | ![testimage03](./markdown_images/testimage03.jpg)
+
+### Model Certainty - Softmax Probabilities
+
+**The top five softmax probabilities of the predictions on the captured images are outputted. The submission discusses how certain or uncertain the model is of its predictions.**
 
