@@ -167,3 +167,6 @@ Then we set up our training pipeline -
 * Then, we run minimize function on the optimizer which implements backpropagation to update the network and thus minimize our training loss.
 
 #### Solution Approach
+
+We start running our neural network with the startup values of 0.001 for the learning rate, 50 epochs and 128 batch size.
+
