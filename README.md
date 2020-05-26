@@ -193,3 +193,22 @@ I ran my performance test on 6 images and below are the results.
 
 **The top five softmax probabilities of the predictions on the captured images are outputted. The submission discusses how certain or uncertain the model is of its predictions.**
 
+The top five probabilities calculated using the softmax function are list below for each image. I have saved the screenshots of the output generated from Traffic_Sign_Classifier.ipynb.
+
+![testimage1](./markdown_images/testimage1.jpg)
+
+![testimage2](./markdown_images/testimage2.jpg)
+
+![testimage3](./markdown_images/testimage3.jpg)
+
+![testimage4](./markdown_images/testimage4.jpg)
+
+![testimage5](./markdown_images/testimage5.jpg)
+
+![testimage6](./markdown_images/testimage6.jpg)
+
+As can be seen from the results, our CNN is well trained to correctly predit the roadsign from the new test images. The probability is 100% for most of the images.
+
+#### Proposed Additional Enhancements
+
+A higher accuracy can be achieved by implementing a neural network with even more layers, by visualizing the individual layers, training the model on even more data and tweaking some more parameters.
