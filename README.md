@@ -49,7 +49,7 @@ Find the following files in the project repository.
 
 [Traffic_Light_Classifier.ipynb](Traffic_Sign_Classifier.ipynb)
 
-[HTML Output]()
+[HTML Output](Traffic_Sign_Classifier-gauborg.html)
 
 ---
 ## 2. Dataset Exploration
@@ -91,7 +91,7 @@ I have included a few images which show us the classification of training, valid
 I implemented a function called *normalize_images* which takes as input a dataset image and normalizes the pixels from (0, 255) to (-1, 1). This is done to ensure that the image has 
 I implemented a function called *normalize_images* which takes as input a dataset image and normalizes the pixels from (0, 255) to (-1, 1). This is done to ensure that the data has zero mean and equal variance.
 
-I run this function on our training, validation and testing datasets. The newly created datasets *X_train_norm*, *X_valid_norm* store our normalized images. We will use the newly created datasets on our CNN.
+I run this function on our training, validation and testing datasets. The newly created datasets (*X_train_norm, X_valid_norm*) store our normalized images. We will use the newly created datasets on our CNN.
 
 ### Model Architecture
 
